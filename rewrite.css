@@ -1,0 +1,542 @@
+body{
+  color: #76777a;
+}
+
+#header .header-content div:first-child{
+  display: inline-block;
+  width: 29.5%;
+}
+
+#header .header-content div:not(:first-child){
+  display: inline-block;
+  width: 70%;
+}
+
+.contact ul li:first-child{
+  padding: 10px 50px;
+  vertical-align: top;
+}
+
+.contact ul li:not(first-child){
+  padding: 10px 30px;
+}
+
+.contact ul li a {
+  color: #fff;
+}
+
+.contact ul li span {
+  color: #76777a;
+}
+
+.contact {
+  width: 100%!important;
+  float: right;
+}
+
+.contact ul{
+  float: right;
+}
+
+.navigation{
+  width: 100%!important;
+  float: right;
+}
+
+.navigation li {
+  padding-top: 20px;
+}
+
+#header .navigation ul li a:last-child {
+  padding-right: 0px;
+}
+
+ul.primary-nav {
+  float: right;
+}
+
+.contact ul li {
+  display: table-cell;
+}
+
+#header .navigation ul li a {
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+
+#header .navigation ul li a:hover {
+  color: #004876;
+}
+
+.owl-carousel{
+  margin-top: 200px;
+}
+
+#header.fixed .logo {
+  width: 160px;
+}
+
+#header.fixed .header-content div:first-child {
+  vertical-align: top;
+}
+
+.imtem-description {
+  position: absolute;
+  top: 25vh;
+  padding: 45px 80px 45px 80px;
+  background-color: #353535c7;
+  width: 55vh;
+  color: #fff;
+  line-height: 0px;
+}
+
+.box-description {
+  position: absolute;
+  bottom: 0px;
+  padding: 30px;
+  background-color: #353535c7;
+  width: 100%;
+  color: #fff;
+  line-height: 0px;
+  text-align: center;
+}
+
+/*
+.imtem-description span {
+  font-weight: 600px;
+}
+*/
+.imtem-description span b{
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+.box-description span b {
+    font-size: 1.7rem;
+    font-weight: normal;
+}
+
+.imtem-description hr {
+  height: 0px;
+  background-color: #004876;
+}
+
+.quienes-somos{
+  background-image: url('img/Miguelez-Seguros-y-Fianzas_logo-white-fondo.png');
+  background-repeat: no-repeat;
+  background-size: 60% auto!important;
+  background-position-y: center;
+  background-position-x: center;
+  height: 480px;
+}
+
+h1, h2{
+  color: #004876;
+  font-size: 3rem;
+}
+
+.card {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-header{
+  background-color: #fff;
+}
+
+.btn-link{
+  color: #004876;
+  font-size: 2rem;
+}
+
+#accordion {
+  padding-right: 50px;
+}
+
+.card-header {
+  background-color: #fff;
+}
+
+.card-header:before{
+  content: '';
+  position: absolute;
+  background-image: url(img/arrow.png);
+  background-repeat: no-repeat;
+  background-size: 18px auto;
+  background-position-x: right;
+  background-position-y: center;
+  width: 50px;
+  height: 50px;
+  right: 0px;
+  top: 20%;
+}
+/*
+.first-card:before{
+  top: 10%;
+}
+*/
+.card-header.active:before{
+  -webkit-transform:  translate(0%, -70%) rotate(90deg);
+  transform:  translate(0%, -70%) rotate(90deg);
+}
+
+.footer{
+  padding: 25px 0;
+  background: #004679;
+  background-image: url(img/heading-footer.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: top;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.footer-brand a {
+  color: #fff;
+}
+
+.footer-menu h6, .footer-contacto h6 {
+  font-family: 'Fira Sans Condensed', Georgia, serif;
+  font-size: 18px;
+  color: #ffffff;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.footer-contacto li{
+  margin: 0px;
+}
+
+.footer-contacto {
+  /*padding: 0px 0px 25px 15px;*/
+}
+.footer-menu li{
+  margin: 3px 0px;
+  text-transform: none;
+}
+.footer-brand p{
+  padding: 15px 0px 10px 0px;
+}
+
+.footer-logo{
+  margin-top: 10px;
+}
+
+#header .navigation ul li a.active{
+  color: #004876;
+}
+
+.box-image {
+  width: 100%;
+}
+
+.box-empresas {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.menu-seguros-empresas li:after {
+  content: '|';
+  padding-left: 15px;
+  font-size: 1.9rem;
+}
+
+.menu-seguros-empresas li:nth-child(3):after,
+.menu-seguros-empresas li:nth-child(6):after {
+  content: '';
+}
+
+.menu-seguros-empresas li {
+  display: inline-block!important;
+  padding-left: 15px;
+}
+
+.menu-seguros-empresas li a {
+  font-size: 1.9rem;
+  color: #76777a;
+}
+
+.menu-seguros-empresas li a:hover {
+  color: #004876;
+}
+
+.menu-seguros-empresas li a.active {
+    color: #004876;
+}
+
+.bold-blue{
+  color: #004876;
+}
+
+#toTop {
+    position: fixed;
+    display: none;
+    text-decoration: none;
+    bottom: 30px;
+    right: 30px;
+    overflow: hidden;
+    width: 48px;
+    height: 55px;
+    border: none;
+    text-indent: 100%;
+    background: url(img/totop.png) no-repeat left top;
+    z-index: 999;
+    opacity: 0.8;
+    text-indent: -9999px;
+    background-size: 48px 55px;
+}
+
+.owl-theme .owl-dots {
+    position: relative;
+    top: -25px;
+}
+
+.owl-theme .owl-dots .owl-dot span{
+  background-color: #fff;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+	background: #004876;
+}
+
+
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-item:hover>.dropdown-menu {
+  display: block;
+}
+ul li{
+list-style-type:none;
+display: inline;
+}
+
+.navbar-nav .nav-link{display:inline-block;}
+
+.ml-auto {display:inline-block!important;}
+
+.dropdown>.dropdown-toggle:active {
+  pointer-events: none;
+}
+
+.submenu{
+  width: 100%;
+  display: block;
+}
+
+.submenu a{
+  font-size: 1rem!important;
+}
+
+input,
+textarea{
+  background-color: #E7E7E7;
+  border-color: #E7E7E7;
+  border: none;
+  padding: 5px 10px;
+}
+
+.text-blue{
+  color: #004876;
+}
+
+.blue{
+  background-color: #004876;
+  color: #fff;
+  padding: 5px 20px;
+  text-align: center;
+}
+
+.loading{
+  display: none;
+  text-align: left;
+  padding-left: 50px;
+  padding-top: 15px;
+}
+
+.loading img{
+  width: 50px;
+  height: 50px;
+}
+
+
+.nav-toggle {
+	display: none;
+	height: 44px;
+	overflow: hidden;
+	position: fixed;
+	right: 70px;
+	text-indent: 100%;
+	top: 58px;
+	white-space: nowrap;
+	width: 44px;
+	z-index: 99999;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.nav-toggle:before, .nav-toggle:after {
+	content: "";
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	-moz-backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-transition-property: -moz-transform;
+	-o-transition-property: -o-transform;
+	-webkit-transition-property: -webkit-transform;
+	transition-property: transform;
+}
+
+.nav-toggle:before {
+	background-color: #1C1C1C;
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-moz-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+
+.nav-toggle:after {
+	background-color: #2E2A25;
+	-moz-transform: scale(0);
+	-ms-transform: scale(0);
+	-webkit-transform: scale(0);
+	transform: scale(0);
+	-moz-transition-duration: 0s;
+	-o-transition-duration: 0s;
+	-webkit-transition-duration: 0s;
+	transition-duration: 0s;
+}
+
+.nav-toggle span {
+	background-color: #FFFFFF;
+	bottom: auto;
+	display: inline-block;
+	height: 3px;
+	left: 50%;
+	position: absolute;
+	right: auto;
+	top: 50%;
+	width: 18px;
+	z-index: 10;
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.nav-toggle span:before, .nav-toggle span:after {
+	background-color: #FFFFFF;
+	content: "";
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100%;
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	-moz-backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-transition: -moz-transform 0.3s;
+	-o-transition: -o-transform 0.3s;
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+}
+
+.nav-toggle span:before {
+	-moz-transform: translateY(-6px) rotate(0deg);
+	-ms-transform: translateY(-6px) rotate(0deg);
+	-webkit-transform: translateY(-6px) rotate(0deg);
+	transform: translateY(-6px) rotate(0deg);
+}
+
+.nav-toggle span:after {
+	-moz-transform: translateY(6px) rotate(0deg);
+	-ms-transform: translateY(6px) rotate(0deg);
+	-webkit-transform: translateY(6px) rotate(0deg);
+	transform: translateY(6px) rotate(0deg);
+}
+
+.nav-toggle.close-nav:before {
+	-moz-transform: scale(0);
+	-ms-transform: scale(0);
+	-webkit-transform: scale(0);
+	transform: scale(0);
+}
+
+.nav-toggle.close-nav:after {
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+.nav-toggle.close-nav span {
+	background-color: rgba(255, 255, 255, 0);
+}
+
+.nav-toggle.close-nav span:before, .nav-toggle.close-nav span:after {
+	background-color: #FFFFFF;
+}
+
+.nav-toggle.close-nav span:before {
+	-moz-transform: translateY(0) rotate(45deg);
+	-ms-transform: translateY(0) rotate(45deg);
+	-webkit-transform: translateY(0) rotate(45deg);
+	transform: translateY(0) rotate(45deg);
+}
+
+.nav-toggle.close-nav span:after {
+	-moz-transform: translateY(0) rotate(-45deg);
+	-ms-transform: translateY(0) rotate(-45deg);
+	-webkit-transform: translateY(0) rotate(-45deg);
+	transform: translateY(0) rotate(-45deg);
+}
+
+
+/* -MAX WIDHT 1024px- */
+@media screen and (max-width: 1024px) {
+	.nav-toggle {
+		display: block;
+	}
+  .contact{
+    display: none!important;
+  }
+}
+
+/* -MAX WIDHT 768px- */
+@media screen and (max-width: 768px) {
+	.nav-toggle {
+		right: 70px;
+		top: 38px;
+	}
+}
+
+/* -MAX WIDHT 480px- */
+@media screen and (max-width: 480px) {
+	.nav-toggle {
+		right: 30px;
+		top: 38px;
+	}
+}
